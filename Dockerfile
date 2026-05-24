@@ -7,7 +7,7 @@ COPY . /app
 
 #EXPOSE 8080
 
-RUN mvn clean install -DskipTests=True
+RUN mvn clean install -DskipTests=true
 
 #stage 2
 
